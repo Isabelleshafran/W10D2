@@ -1,0 +1,28 @@
+.tile {
+    background-color: grey;
+    height: 20px; 
+    width: 20px; 
+    border-width: 2px; 
+    line-height: 20px;
+    padding-left: 3px;
+    font-size: 14px; 
+    border: 1px solid gray; 
+    float: left; 
+    /* display: flex; 
+    flex-wrap: wrap; */
+    border-style: inset; 
+    border-style: outset;
+}
+
+
+.board {
+    background-color: darkgray;
+    width: 250px;
+    /* height: 250px;  */
+    /* display: flex;  */
+    /* justify-content: center; */
+}
+
+.bombed {
+    background-color: red;
+}
